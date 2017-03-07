@@ -4,9 +4,25 @@
         <servlet-name>ValidateLogin</servlet-name>
         <servlet-class>com.clasificados.controllers.ValidateLogin</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>LogOut</servlet-name>
+        <servlet-class>com.clasificados.controllers.LogOut</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>FilterAds</servlet-name>
+        <servlet-class>com.clasificados.controllers.FilterAds</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>ValidateLogin</servlet-name>
         <url-pattern>/validatelogin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LogOut</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>FilterAds</servlet-name>
+        <url-pattern>/filterads</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

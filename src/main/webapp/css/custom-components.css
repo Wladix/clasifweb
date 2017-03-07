@@ -449,7 +449,7 @@ select > opation:focus {
   -webkit-transition: all 0.9s ease;
   -moz-transition: all 0.9s ease;
   -ms-transition: all 0.9s ease;
-  -0-transition: all 0.9s ease;
+  -transition: all 0.9s ease;
   transition: all 0.9s ease;
 }
 #new-products .product-item .carousel-thumb .overlay {
@@ -505,7 +505,7 @@ select > opation:focus {
   -webkit-transform: scale(0.9);
   -moz-transform: scale(0.9);
   -ms-transform: scale(0.9);
-  -0-transform: scale(0.9);
+  -transform: scale(0.9);
   transform: scale(0.9);
 }
 #new-products .product-item .carousel-thumb:hover {
@@ -521,7 +521,7 @@ select > opation:focus {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
-  -0-transform: scale(1);
+  -transform: scale(1);
   transform: scale(1);
 }
 #new-products .product-item .item-name {

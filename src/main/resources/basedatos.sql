@@ -3,23 +3,23 @@ create database clasificados;
 use clasificados;
 
 --Tabla activa hasta el momento--
-CREATE TABLE `clasificados`.`vehiculo` ( `id_vehiculo` INT(20) NOT NULL AUTO_INCREMENT , `precio` VARCHAR(20) NOT NULL , `kilometraje` 
+CREATE TABLE `vehiculo` ( `id_vehiculo` INT(20) NOT NULL AUTO_INCREMENT , `precio` VARCHAR(20) NOT NULL , `kilometraje` 
 VARCHAR(20) NOT NULL , `combustibe` VARCHAR(20) NOT NULL , `transmision` VARCHAR(20) NOT NULL , `color` VARCHAR(20) NOT NULL , `condicion` 
 ENUM('Nuevo','Usado','','') NOT NULL , `año_fabricacion` VARCHAR(20) NOT NULL , `descripcion` VARCHAR(250) NOT NULL , `condicion_venta` 
-ENUM('Negociable','Precio Fijo','Gratuito','') NOT NULL , `ubicacion_estado` VARCHAR(20) NOT NULL , `ubicacion_ciudad` VARCHAR(20) NOT NULL , 
+ENUM('Negociable','Precio Fijo','Gratuito') NOT NULL , `ubicacion_estado` VARCHAR(20) NOT NULL , `ubicacion_ciudad` VARCHAR(20) NOT NULL , 
 `telefono1` VARCHAR(20) NOT NULL , `telefono2` VARCHAR(20) NOT NULL , PRIMARY KEY (`id_vehiculo`)) ENGINE = InnoDB;
 
 INSERT INTO `vehiculo` (`id_vehiculo`, `precio`, `kilometraje`, `combustibe`, `transmision`, `color`, `condicion`, `año_fabricacion`, `descripcion`, 
 `condicion_venta`, `ubicacion_estado`, `ubicacion_ciudad`, `telefono1`, `telefono2`) VALUES (NULL, '3500000', '120000', 'Gasoil', 'Automatica', 'Verde', 
 'Nuevo', '2005', 'Motor Malo', 'Negociable', 'Distrito Capital', 'Caracas', '0426333333', '0414777777')
 
-CREATE TABLE `clasificados`.`usuario` ( `id_usuario` INT(50) NOT NULL AUTO_INCREMENT , `nombre_usuario` VARCHAR(50) NOT NULL , 
+CREATE TABLE `usuario` ( `id_usuario` INT(50) NOT NULL AUTO_INCREMENT , `nombre_usuario` VARCHAR(50) NOT NULL , 
 `nombres` VARCHAR(50) NOT NULL , `apellidos` VARCHAR(50) NOT NULL , `cedula` VARCHAR(50) NOT NULL , `correo` VARCHAR(50) NOT NULL , 
-`contraseña` VARCHAR(50) NOT NULL , `rol` ENUM('Cliente','Administrador','','') NOT NULL , PRIMARY KEY (`id_usuario`)) ENGINE = InnoDB;
+`contraseña` VARCHAR(50) NOT NULL , `rol` ENUM('Cliente','Administrador') NOT NULL , PRIMARY KEY (`id_usuario`)) ENGINE = InnoDB;
 
 INSERT INTO `usuario` (`id_usuario`, `nombre_usuario`, `nombres`, `apellidos`, `cedula`, `correo`, `contraseña`, `rol`) VALUES 
 (NULL, 'c_wladix', 'Pedro Wladimir', 'Oliveros Caceres', '18187022', 'wladix@hotmail.com', '123456', 'Cliente'), (NULL, 'a_josex', 
-'Jose Vicente', 'Oliveros', '12456789', 'josex@gmail.com', '123456', 'Administrador'
+'Jose Vicente', 'Oliveros', '12456789', 'josex@gmail.com', '123456', 'Administrador')
 
 ALTER TABLE `usuario` CHANGE `rol` `rol` ENUM('Cliente','Administrador') CHARACTER SET utf8 COLLATE utf8_spanish_ci NOT NULL;
 

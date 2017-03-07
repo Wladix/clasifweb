@@ -26,17 +26,23 @@ public class ValidateLogin extends HttpServlet {
         RequestDispatcher rd;
         PrintWriter out = response.getWriter();
         String user = request.getParameter("user");
+        System.out.println("user: "+user);
         String pass = request.getParameter("password");
+        System.out.println("password: "+pass);
         User u = ModelUser.getUser(user);
         if(u != null){
+            System.out.println("u.getContraseña: "+u.getContraseña());
             System.out.println("Usuario Correcto");
-            if(u.getContraseña().equals(pass)){
+            if(u.getContraseña().equals(pass)){                
                 System.out.println("Contraseña Correcta");
                 session.setAttribute("user", u);
+                request.getRequestDispatcher("index.jsp").forward(request, response);
             }else{
+                request.getRequestDispatcher("login.jsp").forward(request, response);
                 System.out.println("Contraseña Incorrecta");
             }
         }else{
+            request.getRequestDispatcher("login.jsp").forward(request, response);
             System.out.println("Usuario Incorrecto");
         }
     }

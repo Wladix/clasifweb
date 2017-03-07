@@ -1,4 +1,4 @@
-<!-- Start intro section -->
+
 <section id="intro" class="section-intro">
     <div class="overlay">
         <div class="container">
@@ -6,10 +6,10 @@
                 <h1 class="intro-title">Bienvenido a <span style="color: #3498DB">Clasificados</span></h1>
                 <p class="sub-title">Compra y Vende de todo desde carros, celulares, computadoras... etc, o busca oportunidades de empleo y mucho mas...</p>
 
-                <!-- Start Search box -->
+                
                 <div class="row search-bar">
                     <div>
-                        <form method="get">
+                        <form method="get" action="/filterads">
                             <div class="col-md-3 col-sm-6">
                                 <div>
                                     <label class="styled-select location-selec">
@@ -52,9 +52,8 @@
                         </form>
                     </div>
                 </div>
-                <!-- End Search box -->
+                
             </div>
         </div>
     </div>
 </section>
-<!-- end intro section -->

@@ -26,7 +26,7 @@
                     <h3>
                         Ingresar a Mi cuenta
                     </h3>
-                    <form role="form" class="login-form">
+                    <form action="/validatelogin" method="post" role="form" class="login-form">
                         <div class="form-group">
                             <div class="input-icon">
                                 <i class="icon fa fa-user"></i>
@@ -36,7 +36,7 @@
                         <div class="form-group">
                             <div class="input-icon">
                                 <i class="icon fa fa-unlock-alt"></i>
-                                <input type="password" class="form-control" placeholder="Contraseña">
+                                <input type="password" class="form-control" name="password" placeholder="Contraseña">
                             </div>
                         </div>                  
                         <div class="checkbox">

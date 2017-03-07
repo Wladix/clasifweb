@@ -12,36 +12,36 @@
                             <a href="category.jsp"><i class="lnr lnr-users color-1"></i></a>
                         </div>
                         <div class="category-header">  
-                            <a href="category.html"><h4>Communidad</h4></a>
+                            <a href="category.jsp"><h4>Communidad</h4></a>
                         </div>
                         <div class="category-content" >
                             <ul>
                                 <li>
-                                    <a href="category.html">Ultimos Comentarios</a>
+                                    <a href="category.jsp">Ultimos Comentarios</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Carros - Motos</a>
+                                    <a href="category.jsp">Carros - Motos</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Electronica</a>
+                                    <a href="category.jsp">Electronica</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Servicios</a>
+                                    <a href="category.jsp">Servicios</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Ofertas</a>
+                                    <a href="category.jsp">Ofertas</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Entretenimiento</a>
+                                    <a href="category.jsp">Entretenimiento</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Ver SubCategorias ?</a>
+                                    <a href="category.jsp">Ver SubCategorias ?</a>
                                     <span class="category-counter">3</span>
                                 </li>
                             </ul>
@@ -51,39 +51,39 @@
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="category-box border-2 wow fadeInUpQuick animated" data-wow-delay="0.6s" style="visibility: visible;-webkit-animation-delay: 0.6s; -moz-animation-delay: 0.6s; animation-delay: 0.6s;">
                         <div class="icon">
-                            <a href="category.html"><i class="lnr lnr-laptop-phone color-2"></i></a>
+                            <a href="category.jsp"><i class="lnr lnr-laptop-phone color-2"></i></a>
                         </div>
                         <div class="category-header">  
-                            <a href="category.html"><h4>Electronica</h4></a>
+                            <a href="category.jsp"><h4>Electronica</h4></a>
                         </div>
                         <div class="category-content">
                             <ul>
                                 <li>
-                                    <a href="category.html">Home Electronics</a>
+                                    <a href="category.jsp">Home Electronics</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">LCDs</a>
+                                    <a href="category.jsp">LCDs</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Charity - Donate - NGO</a>
+                                    <a href="category.jsp">Charity - Donate - NGO</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Celulares &amp; Tabletas</a>
+                                    <a href="category.jsp">Celulares &amp; Tabletas</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">TV &amp; DVDs</a>
+                                    <a href="category.jsp">TV &amp; DVDs</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Servicios Tecnicos</a>
+                                    <a href="category.jsp">Servicios Tecnicos</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Otros</a>
+                                    <a href="category.jsp">Otros</a>
                                     <span class="category-counter">1</span>
                                 </li>
                             </ul>
@@ -93,39 +93,39 @@
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="category-box border-3 wow fadeInUpQuick animated" data-wow-delay="0.9s" style="visibility: visible;-webkit-animation-delay: 0.9s; -moz-animation-delay: 0.9s; animation-delay: 0.9s;">
                         <div class="icon">
-                            <a href="category.html"><i class="lnr lnr-cog color-3"></i></a>
+                            <a href="category.jsp"><i class="lnr lnr-cog color-3"></i></a>
                         </div>
                         <div class="category-header">  
-                            <a href="category.html"><h4>Servicios</h4></a>
+                            <a href="category.jsp"><h4>Servicios</h4></a>
                         </div>
                         <div class="category-content">
                             <ul>
                                 <li>
-                                    <a href="category.html">Servicios de Limpieza</a>
+                                    <a href="category.jsp">Servicios de Limpieza</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Educación</a>
+                                    <a href="category.jsp">Educación</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Servicios de Comida</a>
+                                    <a href="category.jsp">Servicios de Comida</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Medicina</a>
+                                    <a href="category.jsp">Medicina</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Oficina &amp; Home Removals</a>
+                                    <a href="category.jsp">Oficina &amp; Home Removals</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">General Entertainment</a>
+                                    <a href="category.jsp">General Entertainment</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Ver SubCategorias ?</a>
+                                    <a href="category.jsp">Ver SubCategorias ?</a>
                                 </li>
                             </ul>
                         </div>
@@ -134,35 +134,35 @@
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="category-box border-4 wow fadeInUpQuick animated" data-wow-delay="1.2s" style="visibility: visible;-webkit-animation-delay: 1.2s; -moz-animation-delay: 1.2s; animation-delay: 1.2s;">
                         <div class="icon">
-                            <a href="category.html"><i class="lnr lnr-cart color-4"></i></a>
+                            <a href="category.jsp"><i class="lnr lnr-cart color-4"></i></a>
                         </div>
                         <div class="category-header">  
-                            <a href="category.html"><h4>Tienda</h4></a>
+                            <a href="category.jsp"><h4>Tienda</h4></a>
                         </div>
                         <div class="category-content">
                             <ul>
                                 <li>
-                                    <a href="category.html">Bolsos</a>
+                                    <a href="category.jsp">Bolsos</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Productos de Belleza</a>
+                                    <a href="category.jsp">Productos de Belleza</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Joyería</a>
+                                    <a href="category.jsp">Joyería</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Zapatos</a>
+                                    <a href="category.jsp">Zapatos</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Tender Notices</a>
+                                    <a href="category.jsp">Tender Notices</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Otros</a>
+                                    <a href="category.jsp">Otros</a>
                                     <span class="category-counter">3</span>
                                 </li>
                             </ul>
@@ -172,39 +172,39 @@
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="category-box border-5 wow fadeInUpQuick animated" data-wow-delay="1.5s" style="visibility: visible;-webkit-animation-delay: 1.5s; -moz-animation-delay: 1.5s; animation-delay: 1.5s;">
                         <div class="icon">
-                            <a href="category.html"><i class="lnr lnr-briefcase color-5"></i></a>
+                            <a href="category.jsp"><i class="lnr lnr-briefcase color-5"></i></a>
                         </div>
                         <div class="category-header">  
-                            <a href="category.html"><h4>Empleos</h4></a>
+                            <a href="category.jsp"><h4>Empleos</h4></a>
                         </div>
                         <div class="category-content">
                             <ul>
                                 <li>
-                                    <a href="category.html">Contabilidad</a>
+                                    <a href="category.jsp">Contabilidad</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Limpieza &amp; Lavado</a>
+                                    <a href="category.jsp">Limpieza &amp; Lavado</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Diseñadores Web</a>
+                                    <a href="category.jsp">Diseñadores Web</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Desarrolladores &amp; Codigo</a>
+                                    <a href="category.jsp">Desarrolladores &amp; Codigo</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Finanzas</a>
+                                    <a href="category.jsp">Finanzas</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Data Entry</a>
+                                    <a href="category.jsp">Data Entry</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Ver SubCategorías ?</a>
+                                    <a href="category.jsp">Ver SubCategorías ?</a>
                                 </li>
                             </ul>
                         </div>
@@ -213,39 +213,39 @@
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="category-box border-6 wow fadeInUpQuick animated" data-wow-delay="1.8s" style="visibility: visible;-webkit-animation-delay: 1.8s; -moz-animation-delay: 1.8s; animation-delay: 1.8s;">
                         <div class="icon">
-                            <a href="category.html"><i class="lnr lnr-graduation-hat color-6"></i></a>
+                            <a href="category.jsp"><i class="lnr lnr-graduation-hat color-6"></i></a>
                         </div>
                         <div class="category-header">  
-                            <a href="category.html"><h4>Programadores</h4></a>
+                            <a href="category.jsp"><h4>Programadores</h4></a>
                         </div>
                         <div class="category-content">
                             <ul>
                                 <li>
-                                    <a href="category.html">Android</a>
+                                    <a href="category.jsp">Android</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Java</a>
+                                    <a href="category.jsp">Java</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">iOS con Swift</a>
+                                    <a href="category.jsp">iOS con Swift</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">SEO</a>
+                                    <a href="category.jsp">SEO</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Especialistas Java</a>
+                                    <a href="category.jsp">Especialistas Java</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Otros</a>
+                                    <a href="category.jsp">Otros</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">VerSubcategorías ?</a>
+                                    <a href="category.jsp">VerSubcategorías ?</a>
                                 </li>
                             </ul>
                         </div>
@@ -254,35 +254,35 @@
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="category-box border-7 wow fadeInUpQuick animated" data-wow-delay="2.1s" style="visibility: visible;-webkit-animation-delay: 2.1s; -moz-animation-delay: 2.1s; animation-delay: 2.1s;">
                         <div class="icon">
-                            <a href="category.html"><i class="lnr lnr-apartment color-7"></i></a>
+                            <a href="category.jsp"><i class="lnr lnr-apartment color-7"></i></a>
                         </div>
                         <div class="category-header">  
-                            <a href="category.html"><h4>Bienes Raíces</h4></a>
+                            <a href="category.jsp"><h4>Bienes Raíces</h4></a>
                         </div>
                         <div class="category-content">
                             <ul>
                                 <li>
-                                    <a href="category.html">Haciendas</a>
+                                    <a href="category.jsp">Haciendas</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Casas en Alquiler</a>
+                                    <a href="category.jsp">Casas en Alquiler</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Hoteles</a>
+                                    <a href="category.jsp">Hoteles</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Terrenos</a>
+                                    <a href="category.jsp">Terrenos</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Oficinas en Alquiler</a>
+                                    <a href="category.jsp">Oficinas en Alquiler</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Otros</a>
+                                    <a href="category.jsp">Otros</a>
                                     <span class="category-counter">3</span>
                                 </li>
                             </ul>
@@ -292,39 +292,39 @@
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="category-box border-8 wow fadeInUpQuick animated" data-wow-delay="2.3s" style="visibility: visible;-webkit-animation-delay: 2.3s; -moz-animation-delay: 2.3s; animation-delay: 2.3s;">
                         <div class="icon">
-                            <a href="category.html"><i class="lnr lnr-car color-8"></i></a>
+                            <a href="category.jsp"><i class="lnr lnr-car color-8"></i></a>
                         </div>
                         <div class="category-header">  
-                            <a href="category.html"><h4>Vehiculos</h4></a>
+                            <a href="category.jsp"><h4>Vehiculos</h4></a>
                         </div>
                         <div class="category-content">
                             <ul>
                                 <li>
-                                    <a href="category.html">Carros</a>
+                                    <a href="category.jsp">Carros</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Carros de Lujo</a>
+                                    <a href="category.jsp">Carros de Lujo</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Bicicletas</a>
+                                    <a href="category.jsp">Bicicletas</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Motos</a>
+                                    <a href="category.jsp">Motos</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Clasicas &amp; Modernas</a>
+                                    <a href="category.jsp">Clasicas &amp; Modernas</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Otros</a>
+                                    <a href="category.jsp">Otros</a>
                                     <span class="category-counter">3</span>
                                 </li>
                                 <li>
-                                    <a href="category.html">Ver SubCategorías ?</a>
+                                    <a href="category.jsp">Ver SubCategorías ?</a>
                                 </li>
                             </ul>
                         </div>
@@ -333,4 +333,5 @@
             </div>
         </div>
     </section>
-    <!-- Categories Homepage Section End -->
+</div>
+<!-- Categories Homepage Section End -->

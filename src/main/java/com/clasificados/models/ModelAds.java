@@ -1,28 +1,39 @@
 package com.clasificados.models;
 
-import com.clasificados.classes.Producto;
-
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
+import com.clasificados.classes.Ads;
+import java.sql.*;
 import java.util.ArrayList;
 
-public class ModelBrand {
-    public ArrayList<Producto> getAllProductos() {
-        ArrayList<Producto> productos = new ArrayList<>();
+public class ModelAds {
+    public ArrayList<Ads> getAllAds(int idCategory) {
+        ArrayList<Ads> listAds = new ArrayList<>();
         PreparedStatement statement = null;
         ResultSet rs = null;
         try {
-            String sql = "call selectProductos()";
-            statement = DBConnection.getConnection().prepareCall(sql);
+            String sql = "select * from vehiculo";
+            statement = DBConnection.getConnection().prepareStatement(sql);
             rs = statement.executeQuery();
-//            while (rs.next()) {
-//                productos.add(new Producto(rs.getInt("id_producto"),
-//                        rs.getString("nombre"),
-//                        rs.getString("img_producto"),
-//                        rs.getInt("id_categoria"),
-//                        rs.getDouble("precio"),
-//                        rs.getInt("stock")));
-//            }
+            while (rs.next()) {
+                listAds.add(new Ads(rs.getInt("id_vehiculo"),
+                        rs.getString("fecha_publicacion"),
+                        rs.getString("marca"),
+                        rs.getString("modelo"),
+                        rs.getString("titulo"),
+                        rs.getString("precio"),
+                        rs.getString("kilometraje"),
+                        rs.getString("combustible"),
+                        rs.getString("transmision"),
+                        rs.getString("color"),
+                        rs.getString("condicion"),
+                        rs.getString("año_fabricacion"),
+                        rs.getString("descripcion"),
+                        rs.getString("condicion_venta"),
+                        rs.getString("ubicacion_estado"),
+                        rs.getString("ubicacion_ciudad"),
+                        rs.getString("telefono1"),
+                        rs.getString("telefono2"),
+                        rs.getString("imagen")));
+            }
         } catch (Exception e) {
 
         } finally {
@@ -34,11 +45,11 @@ public class ModelBrand {
                 System.err.println(e.getMessage());
             }
         }
-        return productos;
+        return listAds;
     }
 
-    public Producto getProducto(int id) {
-        Producto producto = null;
+    public Ads getAds(int id) {
+        Ads producto = null;
         PreparedStatement statement = null;
         ResultSet rs = null;
         try {

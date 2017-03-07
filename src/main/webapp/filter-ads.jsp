@@ -1,3 +1,5 @@
+<%@page import="com.clasificados.controllers.FilterAds"%>
+<%@page import="com.clasificados.models.ModelAds"%>
 <%@include file="WEB-INF/jspf/head-declaration.jspf" %>
 <%@include file="WEB-INF/jspf/header-top.jspf" %>
 <%--<%@include file="WEB-INF/jspf/header-sidemenu.jspf" %>--%>
@@ -141,37 +143,12 @@
 
                 <!-- Adds wrapper Start -->
                 <div class="adds-wrapper">
-                    <div class="item-list">
-                        <div class="col-sm-2 no-padding photobox">
-                            <div class="add-image">
-                                <a href="#"><img src="/img/item/img-1.jpg" alt=""></a>
-                                <span class="photo-count"><i class="fa fa-camera"></i>2</span>
-                            </div>
-                        </div>
-                        <div class="col-sm-7 add-desc-box">
-                            <div class="add-details">
-                                <h5 class="add-title"><a href="ads-details.html">Nuevo IPhone 4S</a></h5>
-                                <div class="info">
-                                    <span class="add-type">B</span>
-                                    <span class="date">
-                                        <i class="fa fa-clock"></i>
-                                        6:22:13 15/01/2017
-                                    </span> -
-                                    <span class="category">Electronica</span> -
-                                    <span class="item-location"><i class="fa fa-map-marker"></i>Caracas</span>
-                                </div>
-                                <div class="item_desc">
-                                    <a href="#">Donec ut quam felis. Cras egestas, quam in plac erat dictum, erat mauris inte rdum est nec.</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-3 text-right  price-box">
-                            <h2 class="item-price"> Bs. 320.000 </h2>
-                            <a class="btn btn-danger btn-sm"><i class="fa fa-certificate"></i>
-                                <span>Top Anuncio</span></a> 
-                            <a class="btn btn-common btn-sm"> <i class="fa fa-eye"></i> <span>215</span> </a> 
-                        </div>
-                    </div>
+                    
+                    <%
+                        FilterAds fa= new FilterAds(); 
+                    %>
+                    <%=fa.getFilterAds()%>                    
+                    
                     <div class="item-list">
                         <div class="col-sm-2 no-padding photobox">
                             <div class="add-image">
@@ -181,7 +158,7 @@
                         </div>
                         <div class="col-sm-7 add-desc-box">
                             <div class="add-details">
-                                <h5 class="add-title"><a href="ads-details.html">Sony Xperia dual sim 100% Nuevo</a></h5>
+                                <h5 class="add-title"><a href="ads-details.jsp">Sony Xperia dual sim 100% Nuevo</a></h5>
                                 <div class="info">
                                     <span class="add-type">B</span>
                                     <span class="date">
@@ -212,7 +189,7 @@
                         </div>
                         <div class="col-sm-7 add-desc-box">
                             <div class="add-details">
-                                <h5 class="add-title"><a href="ads-details.html">Camara Digital Nueva</a></h5>
+                                <h5 class="add-title"><a href="ads-details.jsp">Camara Digital Nueva</a></h5>
                                 <div class="info">
                                     <span class="add-type">B</span>
                                     <span class="date">
@@ -243,7 +220,7 @@
                         </div>
                         <div class="col-sm-7 add-desc-box">
                             <div class="add-details">
-                                <h5 class="add-title"><a href="ads-details.html">Samsung Galaxy dual sim 100% Nuevo</a></h5>
+                                <h5 class="add-title"><a href="ads-details.jsp">Samsung Galaxy dual sim 100% Nuevo</a></h5>
                                 <div class="info">
                                     <span class="add-type">B</span>
                                     <span class="date">
@@ -274,7 +251,7 @@
                         </div>
                         <div class="col-sm-7 add-desc-box">
                             <div class="add-details">
-                                <h5 class="add-title"><a href="ads-details.html">Nueva Macbook Pro</a></h5>
+                                <h5 class="add-title"><a href="ads-details.jsp">Nueva Macbook Pro</a></h5>
                                 <div class="info">
                                     <span class="add-type">B</span>
                                     <span class="date">
@@ -305,7 +282,7 @@
                         </div>
                         <div class="col-sm-7 add-desc-box">
                             <div class="add-details">
-                                <h5 class="add-title"><a href="ads-details.html">
+                                <h5 class="add-title"><a href="ads-details.jsp">
                                         Nexus 7 Nueva Edición</a></h5>
                                 <div class="info">
                                     <span class="add-type">B</span>

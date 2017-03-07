@@ -3,11 +3,29 @@ create database clasificados;
 use clasificados;
 
 --Tabla activa hasta el momento--
-CREATE TABLE `vehiculo` ( `id_vehiculo` INT(20) NOT NULL AUTO_INCREMENT , `precio` VARCHAR(20) NOT NULL , `kilometraje` 
-VARCHAR(20) NOT NULL , `combustibe` VARCHAR(20) NOT NULL , `transmision` VARCHAR(20) NOT NULL , `color` VARCHAR(20) NOT NULL , `condicion` 
-ENUM('Nuevo','Usado','','') NOT NULL , `año_fabricacion` VARCHAR(20) NOT NULL , `descripcion` VARCHAR(250) NOT NULL , `condicion_venta` 
-ENUM('Negociable','Precio Fijo','Gratuito') NOT NULL , `ubicacion_estado` VARCHAR(20) NOT NULL , `ubicacion_ciudad` VARCHAR(20) NOT NULL , 
-`telefono1` VARCHAR(20) NOT NULL , `telefono2` VARCHAR(20) NOT NULL , PRIMARY KEY (`id_vehiculo`)) ENGINE = InnoDB;
+CREATE TABLE `vehiculo` (
+  `id_vehiculo` int(20) NOT NULL AUTO_INCREMENT,
+  `fecha_publicacion` date DEFAULT NULL,
+  `marca` varchar(50) DEFAULT NULL,
+  `modelo` varchar(50) DEFAULT NULL,
+  `titulo` varchar(150) DEFAULT NULL,
+  `kilometraje` varchar(20) DEFAULT NULL,
+  `precio` varchar(20) DEFAULT NULL,
+  `combustibe` varchar(20) DEFAULT NULL,
+  `transmision` varchar(20) DEFAULT NULL,
+  `color` varchar(20) DEFAULT NULL,
+  `condicion` enum('Nuevo','Usado') DEFAULT NULL,
+  `año_fabricacion` varchar(20) DEFAULT NULL,
+  `descripcion` varchar(250) DEFAULT NULL,
+  `condicion_venta` enum('Negociable','Precio Fijo','Gratuito') DEFAULT NULL,
+  `ubicacion_estado` varchar(20) DEFAULT NULL,
+  `ubicacion_ciudad` varchar(20) DEFAULT NULL,
+  `telefono1` varchar(20) DEFAULT NULL,
+  `telefono2` varchar(20) DEFAULT NULL,
+  `imagen` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`id_vehiculo`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8
+
 
 INSERT INTO `vehiculo` (`id_vehiculo`, `precio`, `kilometraje`, `combustibe`, `transmision`, `color`, `condicion`, `año_fabricacion`, `descripcion`, 
 `condicion_venta`, `ubicacion_estado`, `ubicacion_ciudad`, `telefono1`, `telefono2`) VALUES (NULL, '3500000', '120000', 'Gasoil', 'Automatica', 'Verde', 

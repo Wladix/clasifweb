@@ -34,8 +34,7 @@
     <!-- Location Section End -->
 
 </div>
-
-
+    
 <%@include file="WEB-INF/jspf/footer-counter.jspf" %>
 <%@include file="WEB-INF/jspf/footer-bottom.jspf" %>
 <%@include file="WEB-INF/jspf/footer-declaration.jspf" %>

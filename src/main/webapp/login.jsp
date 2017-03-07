@@ -1,8 +1,6 @@
 <%@include file="WEB-INF/jspf/head-declaration.jspf" %>
 <%@include file="WEB-INF/jspf/header-top.jspf" %>
 
-
-
 <!-- Inicio Encabezado -->
 <div class="page-header" style="background: url(img/banner1.jpg);">
     <div class="container">

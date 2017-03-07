@@ -1,0 +1,38 @@
+
+            <!-- Inicio Menu Lateral-Izquierdo -->
+            <div class="navmenu navmenu-default navmenu-fixed-left offcanvas"> 
+                <!--- Inicio Menu -->
+                <div class="close" data-toggle="offcanvas" data-target=".navmenu">
+                    <i class="fa fa-close"></i>
+                </div>
+                <h3 class="title-menu">Menu</h3>
+                <ul class="nav navmenu-nav"> <!--- Menu -->
+                    <li><a href="index.jsp">Inicio</a></li>
+                    <li><a href="index-v-2.jsp">Pagina de Inicio Version 2</a></li>
+                    <li><a href="about.jsp">Sobre Nosotros</a></li>            
+                    <li><a href="category.jsp">Categorias</a></li>             
+                    <li><a href="ads-details.jsp">Detalles</a></li>    
+                    <li><a href="pricing.jsp">Tablas de Precio</a></li>    
+                    <li><a href="account-archived-ads.jsp">Cuentas Archivadas</a></li>
+                    <li><a href="account-close.jsp">Cuentas Cerradas</a></li>
+                    <li><a href="account-favourite-ads.jsp">Cuentas Favoritas</a></li>
+                    <li><a href="account-home.jsp">Cuenta de inicio</a></li>
+                    <li><a href="account-myads.jsp">Cuentas</a></li>
+                    <li><a href="account-pending-approval-ads.jsp">Cuentas Pendientes por Aprobar</a></li>
+                    <li><a href="account-saved-search.jsp">Busquedas Almacenadas</a></li> 
+                    <li><a href="post-ads.jsp">Publica tu Anuncio</a></li>
+                    <li><a href="posting-success.jsp">Comentarios Posteados</a></li>  
+                    <li><a href="blog.jsp">Blogs</a></li>
+                    <li><a href="blog-details.jsp">Detalles de Blogs</a></li>
+                    <li><a href="contact.jsp">Contactanos</a></li>
+                    <li><a href="forgot-password.jsp">Olvido de Contraseña</a></li>
+                    <li><a href="faq.jsp">Guia del Usuario</a></li>
+                    <li><a href="signup.jsp">Registrate</a></li>
+                </ul><!--- Fin del Menu -->
+            </div> 
+            <!--- Fin Menu del Lateral-Izquierdo -->
+            <div class="tbtn wow pulse" id="menu" data-wow-iteration="infinite" data-wow-duration="500ms" data-toggle="offcanvas" data-target=".navmenu">
+                <p><i class="fa fa-file-text-o"></i>Menu</p>
+            </div>
+        </div>
+        <!-- Fin del Header -->

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee    http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <display-name>Archetype Created Web Application</display-name>
+<!--    <servlet>
+        <servlet-name>AddCart</servlet-name>
+        <servlet-class>com.mundototal.servlets.AddCart</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DeleteItem</servlet-name>
+        <servlet-class>com.mundototal.servlets.DeleteItem</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>LoginUserServlet</servlet-name>
+        <servlet-class>com.mundototal.servlets.LoginUserServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>LogOutServlet</servlet-name>
+        <servlet-class>com.mundototal.servlets.LogOutServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>MenuServlet</servlet-name>
+        <servlet-class>com.mundototal.servlets.MenuServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>com.mundototal.servlets.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddCart</servlet-name>
+        <url-pattern>/agregarproducto</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DeleteItem</servlet-name>
+        <url-pattern>/borraritem</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LoginUserServlet</servlet-name>
+        <url-pattern>/LoginUserServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LogOutServlet</servlet-name>
+        <url-pattern>/LogOutServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>MenuServlet</servlet-name>
+        <url-pattern>/MenuServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/register</url-pattern>
+    </servlet-mapping>-->
+</web-app>

@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">    
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="author" content="Clasified">        
+        <title>Bienvenido | Clasificados</title>    
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="img/favicon.png">
+
+        <!-- Main Styles -->
+        <link rel="stylesheet" href="css/main.css" type="text/css">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">    
+        <link rel="stylesheet" href="css/jasny-bootstrap.min.css" type="text/css">   
+        <!-- Material CSS -->
+        <link rel="stylesheet" href="css/material-kit.css" type="text/css">
+        <!-- Font Awesome CSS -->
+        <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+        <!-- Line Icons CSS -->
+        <link rel="stylesheet" href="fonts/line-icons/line-icons.css" type="text/css">        
+
+        <!-- Animate CSS -->
+        <link rel="stylesheet" href="extras/animate.css" type="text/css">
+        <!-- Owl Carousel -->
+        <link rel="stylesheet" href="extras/owl.carousel.css" type="text/css">
+        <link rel="stylesheet" href="extras/owl.theme.css" type="text/css">    
+        <link rel="stylesheet" href="extras/settings.css" type="text/css">    
+        <!-- Responsive CSS Styles -->
+        <link rel="stylesheet" href="css/responsive.css" type="text/css">
+        <!-- Slicknav js -->
+        <link rel="stylesheet" href="css/slicknav.css" type="text/css">
+        <!-- Bootstrap Select -->
+        <link rel="stylesheet" href="css/bootstrap-select.min.css">
+
+        <link rel="stylesheet" href="css/blogpage.css">     
+        <link rel="stylesheet" href="css/contacts.css">       
+        <link rel="stylesheet" href="css/custom-components.css">     
+        <link rel="stylesheet" href="css/global.css">    
+        <link rel="stylesheet" href="css/presets.css">       
+        <link rel="stylesheet" href="css/nav-menu.css">
+    </head>
+
+    <body>  
+        <div class="header">    
+            <nav class="navbar navbar-default main-navigation" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <!-- Inicio de Barra de Navegación para Moviles -->
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Barra de Navegación</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!-- Fin de Barra de Navegación para Moviles -->
+                        <a class="navbar-brand logo" href="index.html"><img src="img/logoweb.png" height="60px" width="170px" alt=""></a>
+                    </div>
+                    <!-- Terminamos el Menu para Moviles -->
+
+                    <!-- Inicio Barra de Navegación de Inicio de Sesión -->
+                    <div class="collapse navbar-collapse" id="navbar">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#"><i class="lnr lnr-enter"></i>Iniciar Sesión</a></li>
+                            <li><a href="#"><i class="lnr lnr-user"></i>Registrarse</a></li>
+                            <li class="postadd">
+                                <a class="btn btn-danger btn-post" style="width: 180px" href="post-ads.jsp"><span class="fa fa-plus-circle"></span> Publica tu Anuncio</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!-- Fin Barra de Navegación de Inicio de Sesión -->
+                </div>
+            </nav>        
+
+            <section id="intro" class="section-intro">
+                <div class="overlay">
+                    <div class="container">
+                        <div class="main-text">
+                            <h1 class="intro-title">Bienvenido a <span style="color: #3498DB">Clasificados</span></h1>
+                            <p class="sub-title">Compra y Vende de todo desde carros, celulares, computadoras... etc, o busca oportunidades de empleo y mucho mas...</p>
+
+                            <div class="row search-bar">
+                                <div>
+                                    <form method="get">
+                                        <div class="col-md-3 col-sm-6">
+                                            <div>
+                                                <label class="styled-select location-selec">
+                                                    <select class="dropdown-product selectpicker" name="product-cat" >
+                                                        <option value="0">Todas las Categorias</option>
+                                                        <option value="comunidad">Comunidad</option>
+                                                        <option value="venta_articulos">Articulos para la Venta</option>
+                                                        <option value="empleos">Empleos</option>                          
+                                                        <option value="entrenamiento">Entrenamiento</option>                         
+                                                        <option value="servicios"> Servicios</option>
+                                                        <option value="vehiculos">Vehiculos</option>
+                                                    </select>                                    
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 search-col">
+                                            <div>
+                                                <label class="styled-select location-select">
+                                                    <select class="dropdown-product selectpicker" name="product-cat" >
+                                                        <option value="0">Ubicación</option>
+                                                        <option value="Caracas">Caracas</option>
+                                                        <option value="Valencia">Valencia</option>
+                                                        <option value="Maracaibo">Maracaibo</option>
+                                                        <option value="Barquisimeto">Barquisimeto</option>
+                                                        <option value="Maturin">Maturin</option>
+                                                        <option value="Coro">Coro</option>
+                                                    </select>                                    
+                                                </label>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 search-col">
+                                            <input class="form-control keyword"  style="height: 46px" name="keyword" value="" placeholder="¿Qué Buscas?" type="text">
+                                            <i class="fa fa-search"></i>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 search-col">
+                                            <button class="btn btn-common btn-search btn-block" style="height: 46px"><strong>Buscar</strong></button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>              
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <div class="main-container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3 page-sidebar">
+                            <aside>
+                                <div class="inner-box">
+                                    <div class="categories">
+                                        <div class="widget-title">
+                                            <i class="fa fa-align-justify"></i>
+                                            <h4>Todas las Categorías</h4>
+                                        </div>
+                                        <div class="categories-list">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-desktop"></i>
+                                                        Electronica <span class="category-counter">(9)</span>
+                                                    </a>
+                                                </li>
+
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-wrench"></i>
+                                                        Servicios <span class="category-counter">(8)</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-github-alt"></i>
+                                                        Mascotas <span class="category-counter">(2)</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-leaf"></i>
+                                                        Moda <span class="category-counter">(3)</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-home"></i>
+                                                        Bienes Raíces <span class="category-counter">(4)</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-black-tie"></i>
+                                                        Empleos <span class="category-counter">(5)</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-cutlery"></i>
+                                                        Hoteles &amp; Viajes <span class="category-counter">(5)</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="inner-box">
+                                    <div class="widget-title">
+                                        <h4>Anuncios Premium</h4>
+                                    </div>
+                                    <div class="advimg">
+                                        <ul class="featured-list">
+                                            <li>
+                                                <img alt="" src="img/featured/img1.jpg">
+                                                <div class="hover">
+                                                    <a href="#"><span>Bs. 49.000</span></a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <img alt="" src="img/featured/img2.jpg">
+                                                <div class="hover">
+                                                    <a href="#"><span>Bs. 49.000</span></a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <img alt="" src="img/featured/img3.jpg">
+                                                <div class="hover">
+                                                    <a href="#"><span>Bs. 49.000</span></a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="inner-box">
+                                    <div class="widget-title">
+                                        <h4>Aviso</h4>
+                                    </div>
+                                    <img src="img/img1.jpg" alt="">
+                                </div>
+                            </aside>
+                        </div>
+                        <div class="col-sm-9 page-content">
+                            <!-- Product filter Start -->
+                            <div class="product-filter">
+                                <div class="grid-list-count">
+                                    <a class="list switchToGrid" href="#"><i class="fa fa-list"></i></a>
+                                    <a class="grid switchToList" href="#"><i class="fa fa-th-large"></i></a>
+                                </div>
+                                <div class="short-name">
+                                    <span>Organizar Por</span>
+                                    <form class="name-ordering" method="post">
+                                        <label>
+                                            <select name="order" class="orderby">
+                                                <option selected="selected" value="menu-order">Organizar Por</option>
+                                                <option value="popularity">Precio: Primero mas bajo</option>
+                                                <option value="popularity">Precio: Primero mas alto</option>
+                                            </select>
+                                        </label>
+                                    </form>
+                                </div>
+                                <div class="Show-item">
+                                    <span>Mostrar Anuncios</span>
+                                    <form class="woocommerce-ordering" method="post">
+                                        <label>
+                                            <select name="order" class="orderby">
+                                                <option selected="selected" value="menu-order">49 anuncios</option>
+                                                <option value="popularity">Popular</option>
+                                                <option value="popularity">Relevancia</option>
+                                                <option value="popularity">Mas Nuevo</option>
+                                                <option value="popularity">Precio</option>
+                                            </select>
+                                        </label>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- Product filter End -->
+
+                            <!-- Adds wrapper Start -->
+                            <div class="adds-wrapper">
+                                <div class="item-list">
+                                    <div class="col-sm-2 no-padding photobox">
+                                        <div class="add-image">
+                                            <a href="#"><img src="img/item/img-1.jpg" alt=""></a>
+                                            <span class="photo-count"><i class="fa fa-camera"></i>2</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-7 add-desc-box">
+                                        <div class="add-details">
+                                            <h5 class="add-title"><a href="ads-details.html">Nuevo IPhone 4S</a></h5>
+                                            <div class="info">
+                                                <span class="add-type">B</span>
+                                                <span class="date">
+                                                    <i class="fa fa-clock"></i>
+                                                    6:22:13 15/01/2017
+                                                </span> -
+                                                <span class="category">Electronica</span> -
+                                                <span class="item-location"><i class="fa fa-map-marker"></i>Caracas</span>
+                                            </div>
+                                            <div class="item_desc">
+                                                <a href="#">Donec ut quam felis. Cras egestas, quam in plac erat dictum, erat mauris inte rdum est nec.</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 text-right  price-box">
+                                        <h2 class="item-price"> Bs. 320.000 </h2>
+                                        <a class="btn btn-danger btn-sm"><i class="fa fa-certificate"></i>
+                                            <span>Top Anuncio</span></a> 
+                                        <a class="btn btn-common btn-sm"> <i class="fa fa-eye"></i> <span>215</span> </a> 
+                                    </div>
+                                </div>
+                                <div class="item-list">
+                                    <div class="col-sm-2 no-padding photobox">
+                                        <div class="add-image">
+                                            <a href="#"><img src="img/item/img-2.jpg" alt=""></a>
+                                            <span class="photo-count"><i class="fa fa-camera"></i>2</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-7 add-desc-box">
+                                        <div class="add-details">
+                                            <h5 class="add-title"><a href="ads-details.html">Sony Xperia dual sim 100% Nuevo</a></h5>
+                                            <div class="info">
+                                                <span class="add-type">B</span>
+                                                <span class="date">
+                                                    <i class="fa fa-clock"></i>
+                                                    6:22:13 28/02/2017
+                                                </span> -
+                                                <span class="category">Electronica</span> -
+                                                <span class="item-location"><i class="fa fa-map-marker"></i> Caracas </span>
+                                            </div>
+                                            <div class="item_desc">
+                                                <a href="#">Donec ut quam felis. Cras egestas, quam in plac erat dictum, erat mauris inte rdum est nec.</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 text-right  price-box">
+                                        <h2 class="item-price"> Bs. 199.000 </h2>
+                                        <a class="btn btn-danger btn-sm"><i class="fa fa-certificate"></i>
+                                            <span>Top Anuncio</span></a> 
+                                        <a class="btn btn-common btn-sm"> <i class="fa fa-eye"></i> <span>215</span> </a> 
+                                    </div>
+                                </div>
+                                <div class="item-list">
+                                    <div class="col-sm-2 no-padding photobox">
+                                        <div class="add-image">
+                                            <a href="#"><img src="img/item/img-3.jpg" alt=""></a>
+                                            <span class="photo-count"><i class="fa fa-camera"></i>2</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-7 add-desc-box">
+                                        <div class="add-details">
+                                            <h5 class="add-title"><a href="ads-details.html">Camara Digital Nueva</a></h5>
+                                            <div class="info">
+                                                <span class="add-type">B</span>
+                                                <span class="date">
+                                                    <i class="fa fa-clock"></i>
+                                                    6:22:13 01/01/2017
+                                                </span> -
+                                                <span class="category">Electronica</span> -
+                                                <span class="item-location"><i class="fa fa-map-marker"></i> Caracas </span>
+                                            </div>
+                                            <div class="item_desc">
+                                                <a href="#">Donec ut quam felis. Cras egestas, quam in plac erat dictum, erat mauris inte rdum est nec.</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 text-right  price-box">
+                                        <h2 class="item-price"> Bs. 250.000 </h2>
+                                        <a class="btn btn-danger btn-sm"><i class="fa fa-certificate"></i>
+                                            <span>Top Anuncio</span></a> 
+                                        <a class="btn btn-common btn-sm"> <i class="fa fa-eye"></i> <span>215</span> </a> 
+                                    </div>
+                                </div>
+                                <div class="item-list">
+                                    <div class="col-sm-2 no-padding photobox">
+                                        <div class="add-image">
+                                            <a href="#"><img src="img/item/img-4.jpg" alt=""></a>
+                                            <span class="photo-count"><i class="fa fa-camera"></i>2</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-7 add-desc-box">
+                                        <div class="add-details">
+                                            <h5 class="add-title"><a href="ads-details.html">Samsung Galaxy dual sim 100% Nuevo</a></h5>
+                                            <div class="info">
+                                                <span class="add-type">B</span>
+                                                <span class="date">
+                                                    <i class="fa fa-clock"></i>
+                                                    6:22:13 05/03/2017
+                                                </span> -
+                                                <span class="category">Electronica</span> -
+                                                <span class="item-location"><i class="fa fa-map-marker"></i> London </span>
+                                            </div>
+                                            <div class="item_desc">
+                                                <a href="#">Donec ut quam felis. Cras egestas, quam in plac erat dictum, erat mauris inte rdum est nec.</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 text-right  price-box">
+                                        <h2 class="item-price"> Bs. 150.000 </h2>
+                                        <a class="btn btn-danger btn-sm"><i class="fa fa-certificate"></i>
+                                            <span>Top Anuncio</span></a> 
+                                        <a class="btn btn-common btn-sm"> <i class="fa fa-eye"></i> <span>199</span> </a> 
+                                    </div>
+                                </div>
+                                <div class="item-list">
+                                    <div class="col-sm-2 no-padding photobox">
+                                        <div class="add-image">
+                                            <a href="#"><img src="img/item/img-5.jpg" alt=""></a>
+                                            <span class="photo-count"><i class="fa fa-camera"></i>2</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-7 add-desc-box">
+                                        <div class="add-details">
+                                            <h5 class="add-title"><a href="ads-details.html">Nueva Macbook Pro</a></h5>
+                                            <div class="info">
+                                                <span class="add-type">B</span>
+                                                <span class="date">
+                                                    <i class="fa fa-clock"></i>
+                                                    6:22:13 05/02/2017
+                                                </span> -
+                                                <span class="category">Electronica</span> -
+                                                <span class="item-location"><i class="fa fa-map-marker"></i> Caracas </span>
+                                            </div>
+                                            <div class="item_desc">
+                                                <a href="#">Donec ut quam felis. Cras egestas, quam in plac erat dictum, erat mauris inte rdum est nec.</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 text-right  price-box">
+                                        <h2 class="item-price"> Bs. 120.000</h2>
+                                        <a class="btn btn-danger btn-sm"><i class="fa fa-certificate"></i>
+                                            <span>Top Anuncio</span></a> 
+                                        <a class="btn btn-common btn-sm"> <i class="fa fa-eye"></i> <span>355</span> </a> 
+                                    </div>
+                                </div>
+                                <div class="item-list">
+                                    <div class="col-sm-2 no-padding photobox">
+                                        <div class="add-image">
+                                            <a href="#"><img src="img/item/img-6.jpg" alt=""></a>
+                                            <span class="photo-count"><i class="fa fa-camera"></i>2</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-7 add-desc-box">
+                                        <div class="add-details">
+                                            <h5 class="add-title"><a href="ads-details.html">
+                                                    Nexus 7 Nueva Edición</a></h5>
+                                            <div class="info">
+                                                <span class="add-type">B</span>
+                                                <span class="date">
+                                                    <i class="fa fa-clock"></i>
+                                                    6:22:13 02/03/2017
+                                                </span> -
+                                                <span class="category">Electronica</span> -
+                                                <span class="item-location"><i class="fa fa-map-marker"></i> Caracas </span>
+                                            </div>
+                                            <div class="item_desc">
+                                                <a href="#">Donec ut quam felis. Cras egestas, quam in plac erat dictum, erat mauris inte rdum est nec.</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 text-right  price-box">
+                                        <h2 class="item-price"> Bs. 150.000 </h2>
+                                        <a class="btn btn-danger btn-sm"><i class="fa fa-certificate"></i>
+                                            <span>Top Anuncio</span></a> 
+                                        <a class="btn btn-common btn-sm"> <i class="fa fa-eye"></i> <span>215</span> </a> 
+                                    </div>
+                                </div>
+                            </div>
+                         
+                            <div class="pagination-bar">
+                                <ul class="pagination">
+                                    <li class="active"><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><a href="#">4</a></li>
+                                    <li><a href="#"> ...</a></li>
+                                    <li><a class="pagination-btn" href="#">Siguiente »</a></li>
+                                </ul>
+                            </div>
+                       
+
+                            <div class="post-promo text-center">
+                                <h2> ¿ Tienes algo por vender ? </h2>
+                                <h5>Vende gratis tus productos OnLine. Es mas facil de lo que crees !</h5>
+                                <a href="post-ads.html" class="btn btn-post btn-danger">Publica tu Anuncio Gratis </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <footer>    
+                <section class="footer-Content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="0">
+                                <div class="widget">
+                                    <h3 class="block-title">Sobre Nosotros</h3>
+                                    <div class="textwidget">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lobortis tincidunt est, et euismod purus suscipit quis. Etiam euismod ornare elementum. Sed ex est, consectetur eget facilisis sed, auctor ut purus.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="0.5">
+                                <div class="widget">
+                                    <h3 class="block-title">Enlaces Utiles</h3>
+                                    <ul class="menu">
+                                        <li><a href="#">Inicio</a></li>
+                                        <li><a href="#">Categorias</a></li>
+                                        <li><a href="#">Guia del Usuario</a></li>
+                                        <li><a href="#">Menu Lateral</a></li>
+                                        <li><a href="#">Planes de Precios</a></li>
+                                        <li><a href="#">Acerca de</a></li>
+                                        <li><a href="#">Contactanos</a></li>
+                                        <li><a href="#">Maximizar Pagina</a></li>
+                                        <li><a href="#">Terminos de uso</a></li>
+                                        <li><a href="#">Politicas de Privacidad</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="1s">
+                                <div class="widget">
+                                    <h3 class="block-title">Ultimos Tweets</h3>
+                                    <div class="twitter-content clearfix">
+                                        <ul class="twitter-list">
+                                            <li class="clearfix">
+                                                <span>
+                                                    Comprar y Vender
+                                                    <a href="#">Inicio</a>
+                                                </span>
+                                            </li>
+                                            <li class="clearfix">
+                                                <span>
+                                                    Comprar y Vender
+                                                    <a href="#">Inicio</a>
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="1.5s">
+                                <div class="widget">
+                                    <h3 class="block-title">Anuncios Aleatorios</h3>
+                                    <ul class="featured-list">
+                                        <li>
+                                            <img alt="" src="img/featured/img1.jpg">
+                                            <div class="hover">
+                                                <a href="#"><span>Bs. 56.000</span></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <img alt="" src="img/featured/img2.jpg">
+                                            <div class="hover">
+                                                <a href="#"><span>Bs. 19.000</span></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <img alt="" src="img/featured/img3.jpg">
+                                            <div class="hover">
+                                                <a href="#"><span>Bs. 78.000</span></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <img alt="" src="img/featured/img4.jpg">
+                                            <div class="hover">
+                                                <a href="#"><span>Bs. 45.000</span></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <img alt="" src="img/featured/img5.jpg">
+                                            <div class="hover">
+                                                <a href="#"><span>Bs. 49.000</span></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <img alt="" src="img/featured/img6.jpg">
+                                            <div class="hover">
+                                                <a href="#"><span>Bs. 56.000</span></a>
+                                            </div>
+                                        </li>
+                                    </ul> 						
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div id="copyright">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="site-info pull-left">
+                                    <p>Todos los derechos reservados. Copyright © 2017 | Venezuela. Diseñado por <a href="#">MiPersona</a></p>
+                                </div>    					
+                                <div class="bottom-social-icons social-icon pull-right">  
+                                    <a class="facebook" target="_blank" href="https://web.facebook.com/GrayGrids"><i class="fa fa-facebook"></i></a> 
+                                    <a class="twitter" target="_blank" href="https://twitter.com/GrayGrids"><i class="fa fa-twitter"></i></a>
+                                    <a class="dribble" target="_blank" href="https://dribbble.com/"><i class="fa fa-dribbble"></i></a>
+                                    <a class="flickr" target="_blank" href="https://www.flickr.com/"><i class="fa fa-flickr"></i></a>
+                                    <a class="youtube" target="_blank" href="https://youtube.com"><i class="fa fa-youtube"></i></a>
+                                    <a class="google-plus" target="_blank" href="https://plus.google.com"><i class="fa fa-google-plus"></i></a>
+                                    <a class="linkedin" target="_blank" href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </footer>
+
+
+            <a href="#" class="back-to-top">
+                <i class="fa fa-angle-up"></i>
+            </a>
+
+            <script type="text/javascript" src="js/jquery-min.js"></script>      
+            <script type="text/javascript" src="js/bootstrap.min.js"></script>
+            <script type="text/javascript" src="js/material.min.js"></script>
+            <script type="text/javascript" src="js/material-kit.js"></script>
+            <script type="text/javascript" src="js/jquery.parallax.js"></script>
+            <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+            <script type="text/javascript" src="js/wow.js"></script>
+            <script type="text/javascript" src="js/main.js"></script>
+            <script type="text/javascript" src="js/jquery.counterup.min.js"></script>
+            <script type="text/javascript" src="js/waypoints.min.js"></script>
+            <script type="text/javascript" src="js/jasny-bootstrap.min.js"></script>
+            <script src="js/bootstrap-select.min.js"></script>
+
+    </body>
+</html>
